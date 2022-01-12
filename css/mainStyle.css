@@ -17,7 +17,7 @@ p{
     text-align: center; }
 
 .banner{
-    border: 3px inset gray;
+    border: 3px outset gray;
     background-color: white;
     color: black;
     height: 150px;
