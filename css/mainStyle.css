@@ -20,5 +20,6 @@ a{
 
 .navLinks{
     border: 2px solid white;
+    margin-top: 25px;
     padding: 2px 5px;
     width: fit-content; }

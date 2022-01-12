@@ -4,8 +4,19 @@ body{
     color: lime;
     font-family: sans-serif; }
 
+.pageDesc{
+    color: #fff;
+    text-align: center; }
+
+.pageCode{
+    border: 2px solid white;
+    margin: 5px 0px;
+    padding: 6px 10px;
+    width: fit-content }
+
 .navLinks{
     border: 2px solid white;
+    margin-top: 25px;
     padding: 2px 5px;
     width: fit-content; }
 
