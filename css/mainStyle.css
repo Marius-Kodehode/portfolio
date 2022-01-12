@@ -23,7 +23,7 @@ p{
     text-align: center; }
 
 a{
-    color: lime; }
+    color: currentColor; }
 
 .navLinks{
     border: 2px solid white;
