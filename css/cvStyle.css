@@ -4,9 +4,14 @@ body{
     color: lime;
     font-family: sans-serif; }
 
+.pageDesc{
+    color: #fff;
+    text-align: center; }
+
 .navLinks{
     border: 2px solid white;
     padding: 2px 5px;
+    margin-top: 25px;
     width: fit-content; }
 
 h3{
