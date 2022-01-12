@@ -4,6 +4,17 @@ body{
     color: lime;
     font-family: sans-serif; }
 
+.photo{
+    border: 2px solid white;
+    margin: 20px auto;
+    padding: 10px;
+    height: 350px;
+    width: 250px; }
+
+h2 {
+    margin: 20px;
+    text-align: center; }
+
 .navLinks{
     border: 2px solid white;
     padding: 2px 5px;

@@ -4,6 +4,18 @@ body{
     color: lime;
     font-family: sans-serif; }
 
+.gameMod{
+    border: 2px solid white;
+    margin: 5px 0px;
+    padding: 6px 10px;
+    width: fit-content }
+
+.gameDemo{
+    border: 2px solid white;
+    margin: 5px 0px;
+    padding: 6px 10px;
+    width: fit-content }
+
 .navLinks{
     border: 2px solid white;
     padding: 2px 5px;
