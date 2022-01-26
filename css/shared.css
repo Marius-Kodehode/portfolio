@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: lime;
+    font-family: sans-serif; }
+
+.navLinks{
+    border: 2px solid white;
+    margin-top: 25px;
+    padding: 2px 5px;
+    width: fit-content; }
