@@ -1,5 +1,5 @@
 .photo{
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     margin: 20px auto;
     padding: 10px;
     height: 350px;
@@ -9,5 +9,9 @@ h2 {
     margin: 20px;
     text-align: center; }
 
+h3{
+    color: #ffffff;
+    text-align: center; }
+
 a{
-    color: lime; }
+    color: #00ff00; }

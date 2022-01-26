@@ -1,12 +1,5 @@
-/* Body styling used across all pages */
-body{
-    background-color: black;
-    color: lime;
-    font-family: sans-serif;
-    margin: 1px 0px }
-
 h2{
-    color: white;
+    color: #ffffff;
     text-align: center;
     text-decoration: underline; }
 
@@ -17,18 +10,12 @@ p{
     text-align: center; }
 
 .banner{
-    border: 3px outset gray;
-    background-color: white;
-    color: black;
+    border: 3px outset #808080;
+    background-color: #ffffff;
+    color: #000000;
     height: 150px;
     margin-bottom: 70px;
     text-align: center; }
 
 a{
     color: currentColor; }
-
-/* .navLinks{
-    border: 2px solid white;
-    margin-top: 25px;
-    padding: 2px 5px;
-    width: fit-content; } */

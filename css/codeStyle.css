@@ -1,12 +1,12 @@
 .pageDesc{
-    color: #fff;
+    color: #ffffff;
     text-align: center; }
     
 .codeSample{
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     margin: 5px 0px;
     padding: 6px 10px;
-    width: fit-content }
+    width: fit-content; }
 
 a{
-    color: lime; }
+    color: #00ff00; }

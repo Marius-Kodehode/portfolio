@@ -1,10 +1,14 @@
+/* Basic setup for all pages on the site */
 body{
-    background-color: black;
-    color: lime;
+    background-color: #000000;
+    color: #00ff00;
     font-family: sans-serif; }
 
+/* Navigation bar used across site */
 .navLinks{
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     margin-top: 25px;
     padding: 2px 5px;
     width: fit-content; }
+.navLinks:hover{
+    border: 2px solid #ffd700; }
