@@ -17,5 +17,24 @@ p{
     margin-bottom: 70px;
     text-align: center; }
 
+.gBanner{
+    border: 3px outset #808080;
+    background-color: #000000;
+    background-image: url("../images/gbanner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    margin-bottom: 70px;
+    text-align: center;
+    text-transform: uppercase; }
+
+.gBannerTxt{
+    background-color: #000000;
+    color: #00ff00;
+    margin: 65px auto;
+    padding: 2px 4px;
+    width: fit-content; }
+
 a{
     color: currentColor; }
