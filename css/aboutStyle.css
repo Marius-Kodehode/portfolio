@@ -6,8 +6,10 @@
     width: 250px; }
 
 h2 {
+    color: #ffffff;
     margin: 20px;
-    text-align: center; }
+    text-align: center;
+    text-decoration: underline; }
 
 h3{
     color: #ffffff;

@@ -18,16 +18,20 @@ p{
     text-align: center; }
 
 .gBanner{
-    border: 3px outset #808080;
+    border: 0.5px solid #010101;
     background-color: #000000;
     background-image: url("../images/gbanner.png");
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: left;
     background-size: contain;
     height: 150px;
     margin-bottom: 70px;
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    animation-name: bannerslide;
+    animation-duration: 4500ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear; }
 
 .gBannerTxt{
     background-color: #000000;
@@ -35,6 +39,12 @@ p{
     margin: 65px auto;
     padding: 2px 4px;
     width: fit-content; }
+
+@keyframes bannerslide{
+    from{
+        background-position: left; }
+    to{
+        background-position: 100%; } }
 
 a{
     color: currentColor; }
