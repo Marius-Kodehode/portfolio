@@ -7,7 +7,7 @@ body{
 /* Navigation bar used across site */
 .navLinks{
     border: 2px solid #00ff00;
-    margin-top: 25px;
+    margin: 25px auto 5px auto;
     padding: 2px 5px;
     width: fit-content; }
 .navLinks:hover{
