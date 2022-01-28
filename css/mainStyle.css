@@ -23,6 +23,7 @@ p{
     background-image: url("../images/gbanner.png");
     background-position: left;
     background-size: contain;
+    background-repeat: repeat-x;
     height: 150px;
     margin-bottom: 70px;
     text-align: center;
