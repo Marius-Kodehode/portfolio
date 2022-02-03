@@ -4,6 +4,10 @@ body{
     color: #00ff00;
     font-family: sans-serif; }
 
+/* Bold class to use less strong tags */
+.bold{
+    font-weight: bold; }
+
 /* Navigation bar used across site */
 .navLinks{
     border: 2px solid #00ff00;
