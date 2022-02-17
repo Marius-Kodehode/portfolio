@@ -1,6 +1,6 @@
 /* Basic setup for all pages on the site */
 body{
-    background: linear-gradient(to bottom right, #000, 55%, gray, 60%, #000, 75%, #000);
+    background: linear-gradient(to bottom right, #000, 55%, #808080, 60%, #000, 75%, #000);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #fff;
@@ -21,3 +21,21 @@ body{
     border: 2px solid #ffd700; }
 .navLinks a:hover{
     color: #ffd700; }
+
+/* Neon glow for headlines */
+.neon{
+    animation-name: nglow;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    letter-spacing: 0.1rem; }
+@keyframes nglow{
+    0%{
+        color: #252525;
+        text-shadow: 1px 1px 0.5px #003500, 1px -1px 0.5px #003500, -1px 1px 0.5px #003500, -1px -1px 0.5px #003500; }
+    50%{
+        text-shadow: 1px 1px 1px #01a301, 1px -1px 1px #01a301, -1px 1px 1px #01a301, -1px -1px 1px #01a301; }
+    100%{
+        color: #000;
+        text-shadow: 1px 1px 1px #00ff00, 1px -1px 1px #01a301, -1px 1px 1px #01a301, -1px -1px 1px #00ff00; } }

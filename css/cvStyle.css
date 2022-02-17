@@ -2,6 +2,12 @@
     color: #fff;
     text-align: center; }
 
+h2{
+    color: #000;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #00ff00, 1px -1px 1px #01a301, -1px 1px 1px #01a301, -1px -1px 1px #00ff00; }
+
 h3{
     color: #fff;
     text-decoration: underline; }
