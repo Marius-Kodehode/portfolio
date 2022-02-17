@@ -1,5 +1,5 @@
 h2{
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     text-decoration: underline; }
 
@@ -11,8 +11,8 @@ p{
 
 .aboutBanner{
     border: 3px outset #808080;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #fff;
+    color: #000;
     height: 150px;
     margin-bottom: 70px;
     text-align: center; }
@@ -28,7 +28,7 @@ p{
 
 .gBanner{
     border: 0.5px solid #010101;
-    background-color: #000000;
+    background-color: #000;
     background-image: url("../images/gbanner.png");
     background-position: left;
     background-size: contain;
@@ -37,6 +37,7 @@ p{
     margin-bottom: 70px;
     text-align: center;
     text-transform: uppercase;
+    
     animation-name: bannerslide;
     animation-duration: 4500ms;
     animation-iteration-count: infinite;
@@ -44,7 +45,7 @@ p{
     animation-timing-function: linear; }
 
 .gBannerTxt{
-    background-color: #000000;
+    background-color: #000;
     color: #00ff00;
     margin: 65px auto;
     padding: 2px 4px;
@@ -57,7 +58,7 @@ p{
 
 .pageBanner{
     border: 3px outset #808080;
-    background-color: #000000;
+    background-color: #000;
     background-image: url("../images/wbpgbanner.png");
     background-position: center;
     background-size: contain;

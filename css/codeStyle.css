@@ -1,17 +1,17 @@
 h2{
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     text-decoration: underline; }
 
 .pageDesc{
-    color: #ffffff;
+    color: #fff;
     text-align: center; }
     
 .codeSample{
-    border: 2px solid #ffffff;
+    border: 2px solid #fff;
     margin: 5px 0px;
     padding: 6px 10px;
     width: fit-content; }
 
 a{
-    color: #00ff00; }
+    color: #fff; }

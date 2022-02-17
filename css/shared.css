@@ -1,7 +1,9 @@
 /* Basic setup for all pages on the site */
 body{
-    background-color: #000000;
-    color: #00ff00;
+    background: linear-gradient(to bottom right, #000, 55%, gray, 60%, #000, 75%, #000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
     font-family: sans-serif; }
 
 /* Bold class to use less strong tags */
@@ -10,7 +12,8 @@ body{
 
 /* Navigation bar used across site */
 .navLinks{
-    border: 2px solid #00ff00;
+    border: 2px solid #fff;
+    background-color: #000;
     margin: 25px auto 5px auto;
     padding: 2px 5px;
     width: fit-content; }

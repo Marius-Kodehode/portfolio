@@ -1,19 +1,19 @@
 .photo{
-    border: 2px solid #ffffff;
+    border: 2px solid #fff;
     margin: 20px auto;
     padding: 10px;
     height: 350px;
     width: 250px; }
 
 h2 {
-    color: #ffffff;
+    color: #fff;
     margin: 20px;
     text-align: center;
     text-decoration: underline; }
 
 h3{
-    color: #ffffff;
+    color: #fff;
     text-align: center; }
 
 a{
-    color: #00ff00; }
+    color: #fff; }
