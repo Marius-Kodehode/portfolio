@@ -1,7 +1,3 @@
-.pageDesc{
-    color: #fff;
-    text-align: center; }
-
 h2{
     color: #000;
     text-align: center;
@@ -19,6 +15,7 @@ fieldset{
     background-color: #fff;
     color: #000;
     border: 2px solid #808080;
+    font-family: 'Lucida Sans';
     margin-bottom: 15px;
     width: 720px; }
 legend{
@@ -29,6 +26,10 @@ legend{
 tr{
     text-align: left; }
 td{
+    font-family: Arial;
+    font-size: 1.05rem;
     padding-left: 8px; }
 td a{
     color: #0f13eb; }
+td a:hover{
+    font-style: italic; }
