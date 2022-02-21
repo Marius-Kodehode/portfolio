@@ -14,3 +14,19 @@ h3{
 
 a{
     color: #fff; }
+
+fieldset{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #808080;
+    margin-bottom: 15px;
+    width: 720px; }
+legend{
+    background-color: #fff;
+    border: 2px solid #808080;
+    font-weight: bold;
+    padding: 1px 2px; }
+tr{
+    text-align: left; }
+td{
+    padding-left: 8px; }
