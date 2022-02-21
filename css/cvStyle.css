@@ -2,14 +2,14 @@ h2{
     color: #000;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 1px 1px 1px #00ff00, 1px -1px 1px #01a301, -1px 1px 1px #01a301, -1px -1px 1px #00ff00; }
-
-h3{
-    color: #fff;
-    text-decoration: underline; }
+    text-shadow: 1px 1px 1px #00ff00, 1px -1px 1px #01a301, -1px 1px 1px #01a301, -1px -1px 1px #00ff00;
+    user-select: none; }
 
 a{
     color: #fff; }
+
+.personalia th{
+    user-select: none; }
 
 fieldset{
     background-color: #fff;
@@ -22,14 +22,24 @@ legend{
     background-color: #fff;
     border: 2px solid #808080;
     font-weight: bold;
-    padding: 1px 2px; }
+    padding: 1px 2px;
+    user-select: none; }
 tr{
     text-align: left; }
 td{
     font-family: Arial;
     font-size: 1.05rem;
     padding-left: 8px; }
+th::selection{
+    background-color: #000;
+    color: #fff; }
+td::selection{
+    background-color: #000;
+    color: #fff; }
 td a{
     color: #0f13eb; }
 td a:hover{
     font-style: italic; }
+td a::selection{
+    background-color: #000;
+    color: #ff0000; }
