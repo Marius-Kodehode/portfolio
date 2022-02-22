@@ -1,5 +1,6 @@
 body{
     margin: 0; }
+
 h2{
     color: #fff;
     text-align: center;
@@ -31,44 +32,6 @@ a{
     padding: 2px 4px;
     width: fit-content; }
 
-.gBanner{
-    border: 0.1px solid #010101;
-    background-color: #000;
-    background-image: url("../images/gbanner2.png");
-    background-size: auto;
-    background-repeat: repeat-x;
-    height: 179px;
-    margin-bottom: 70px;
-    text-align: center;
-    text-transform: uppercase;
-    
-    /* animation-name: bannerslide;
-    animation-duration: 4500ms;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-timing-function: linear; } */ }
-
-.BannerTxt{
-    background-color: #000;
-    color: #00ff00;
-    margin: 65px auto;
-    padding: 2px 4px;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: fit-content; }
-
-.gBannerTxt{
-    background-color: #000;
-    color: #00ff00;
-    margin: 75px auto;
-    padding: 2px 4px;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: fit-content; }
-
-.BannerTxt a:hover{
-    font-style: italic; }
-
 .pageBanner{
     border: 3px outset #808080;
     background-color: #000;
@@ -80,8 +43,46 @@ a{
     margin-bottom: 70px;
     text-align: center; }
 
+.BannerTxt{
+    background-color: #000;
+    color: #00ff00;
+    margin: 65px auto;
+    padding: 2px 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: fit-content; }
+
+.BannerTxt a:hover{
+    font-style: italic; }
+
+.gBanner{
+    border: 0.1px solid #010101;
+    background-color: #000;
+    background-image: url("../images/gbanner2.png");
+    background-size: auto;
+    background-repeat: repeat-x;
+    height: 179px;
+    margin-bottom: 70px;
+    text-align: center;
+    text-transform: uppercase; }
+    
+    /* animation-name: bannerslide;
+    animation-duration: 4500ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear; } */
+
 /* @keyframes bannerslide{
     from{
         background-position: left; }
     to{
         background-position: 100%; } } */
+
+.gBannerTxt{
+    background-color: #000;
+    color: #00ff00;
+    margin: 75px auto;
+    padding: 2px 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: fit-content; }
