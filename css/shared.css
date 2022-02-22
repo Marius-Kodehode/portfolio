@@ -34,7 +34,8 @@ body{
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    letter-spacing: 0.1rem; }
+    letter-spacing: 0.1rem;
+    user-select: none; }
 @keyframes nglow{
     0%{
         color: #252525;

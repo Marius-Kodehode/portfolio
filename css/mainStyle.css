@@ -1,3 +1,5 @@
+body{
+    margin: 0; }
 h2{
     color: #fff;
     text-align: center;
@@ -5,6 +7,9 @@ h2{
 
 p{
     font-size: 17px; }
+
+a{
+    color: currentColor; }
 
 .introtxt{
     text-align: center; }
@@ -27,24 +32,23 @@ p{
     width: fit-content; }
 
 .gBanner{
-    border: 0.5px solid #010101;
+    border: 0.1px solid #010101;
     background-color: #000;
-    background-image: url("../images/gbanner.png");
-    background-position: left;
-    background-size: contain;
+    background-image: url("../images/gbanner2.png");
+    background-size: auto;
     background-repeat: repeat-x;
-    height: 150px;
+    height: 179px;
     margin-bottom: 70px;
     text-align: center;
     text-transform: uppercase;
     
-    animation-name: bannerslide;
+    /* animation-name: bannerslide;
     animation-duration: 4500ms;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear; }
+    animation-direction: normal;
+    animation-timing-function: linear; } */ }
 
-.gBannerTxt{
+.BannerTxt{
     background-color: #000;
     color: #00ff00;
     margin: 65px auto;
@@ -53,7 +57,16 @@ p{
     text-transform: uppercase;
     width: fit-content; }
 
-.gBannerTxt a:hover{
+.gBannerTxt{
+    background-color: #000;
+    color: #00ff00;
+    margin: 75px auto;
+    padding: 2px 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: fit-content; }
+
+.BannerTxt a:hover{
     font-style: italic; }
 
 .pageBanner{
@@ -67,11 +80,8 @@ p{
     margin-bottom: 70px;
     text-align: center; }
 
-@keyframes bannerslide{
+/* @keyframes bannerslide{
     from{
         background-position: left; }
     to{
-        background-position: 100%; } }
-
-a{
-    color: currentColor; }
+        background-position: 100%; } } */
