@@ -3,7 +3,8 @@
     margin: 20px auto;
     padding: 10px;
     height: 350px;
-    width: 250px; }
+    width: 250px;
+    user-select: none; }
 
 h2 {
     color: #fff;

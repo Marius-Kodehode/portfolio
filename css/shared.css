@@ -20,7 +20,7 @@ body{
     border: 2px solid #fff;
     background-color: #000;
     margin: 25px auto 5px auto;
-    padding: 2px 5px;
+    padding: 0px 5px 2px 5px;
     width: fit-content; }
 .navLinks:hover{
     border: 2px solid #ffd700; }
