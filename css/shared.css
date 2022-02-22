@@ -1,6 +1,7 @@
 /* Basic setup for all pages on the site */
 body{
-    background: linear-gradient(to bottom right, #000, 55%, #808080, 60%, #000, 75%, #000);
+    background: linear-gradient(to bottom right, #000, #000, #000, #000, #000,
+    #000, #000, #808080, #000, #000, #000, #000, #000, #000, #000);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #fff;
