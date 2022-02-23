@@ -45,7 +45,7 @@ a{
 
 .BannerTxt{
     background-color: #000;
-    color: #00ff00;
+    color: #0f0;
     margin: 65px auto;
     padding: 2px 4px;
     font-weight: bold;
@@ -62,7 +62,7 @@ a{
     background-size: auto;
     background-repeat: repeat-x;
     height: 179px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     text-align: center;
     text-transform: uppercase; }
     
@@ -80,9 +80,37 @@ a{
 
 .gBannerTxt{
     background-color: #000;
-    color: #00ff00;
+    color: #0f0;
     margin: 75px auto;
     padding: 2px 4px;
     font-weight: bold;
     text-transform: uppercase;
     width: fit-content; }
+
+.norVer{
+    background: linear-gradient(#f00, #fff, #00f, #fff, #f00);
+    color: transparent;
+    margin: 10px auto;
+    width: fit-content; }
+
+.norVer:hover{
+    background: #fff;
+    color: #000; }
+
+.norVer p{
+    font-size: smaller;
+    font-weight: bold; }
+
+.engVer{
+    background: linear-gradient(#00f, #fff, #f00, #fff, #00f);
+    color: transparent;
+    margin: 10px auto;
+    width: fit-content; }
+
+.engVer:hover{
+    background: #fff;
+    color: #000; }
+
+.engVer p{
+    font-size: smaller;
+    font-weight: bold; }
