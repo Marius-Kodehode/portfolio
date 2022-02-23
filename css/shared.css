@@ -5,7 +5,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #fff;
-    font-family: sans-serif; }
+    font-family: sans-serif;
+    margin: 0; }
 
 ::selection{
     background-color: #fff;
