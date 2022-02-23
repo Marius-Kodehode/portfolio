@@ -1,0 +1,78 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    background-color: #000;
+    background-image: url('graywall.jpg');
+    color: lime; }
+
+a:link{
+    color: inherit; }
+
+a:visited{
+    color: inherit; }
+
+h2{
+    text-align: center; }
+
+.gimg1, .gimg2, .gimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+
+.gimg1{
+    background-image: url('wotr.png');
+    min-height: 95%; }
+
+.gimg2{
+    background-image: url('encased.png');
+    height: 750px; }
+
+.gimg3{
+    background-image: url('black.png');
+    height: 750px; }
+
+.gimg4{
+    background-image: url('graywall.jpg');
+    height: 300px; }
+
+.section-wotr{
+    background-color: peru;
+    color: purple;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Lucida Sans';
+    padding: 5px;
+    border: 3px solid black; }
+
+.section-encased{
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Lucida Sans';
+    padding: 5px;
+    border: 3px solid #000; }
+
+.section-black{
+    background-color: gray;
+    color: #000;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Lucida Sans';
+    padding: 5px;
+    border: 3px solid #000; }
+    
+.infotext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    font-size: 27px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    letter-spacing: 4px; }

@@ -15,3 +15,15 @@ h2{
 
 a{
     color: #fff; }
+
+.sample{
+    border: 2px solid #fff; }
+.sample p{
+    background-color: #000;
+    margin: 10px;
+    padding: 2px 5px;
+    width: fit-content; }
+.sample a{
+    color: #00ff00; }
+.sample a:hover{
+    font-style: italic; }
