@@ -1,19 +1,17 @@
 body, html{
+    background-image: url("../images/graywall.jpg");
     height: 100%;
     margin: 0;
-    font-size: 16px;
-    background-color: #000;
-    background-image: url('graywall.jpg');
-    color: lime; }
-
-a:link{
-    color: inherit; }
-
-a:visited{
-    color: inherit; }
+    font-size: 16px; }
 
 h2{
     text-align: center; }
+
+a{
+    color: inherit; }
+a::selection, p::selection{
+    background-color: #fff;
+    color: #000; }
 
 .gimg1, .gimg2, .gimg3{
     position: relative;
@@ -21,59 +19,45 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; }
-
 .gimg1{
-    background-image: url('wotr.png');
+    background-image: url("../images/wotr.png");
     min-height: 95%; }
-
 .gimg2{
-    background-image: url('encased.png');
+    background-image: url("../images/encased.png");
     height: 750px; }
-
 .gimg3{
-    background-image: url('black.png');
+    background-image: url("../images/black.png");
     height: 750px; }
-
 .gimg4{
-    background-image: url('graywall.jpg');
+    background-image: url("../images/graywall.jpg");
     height: 300px; }
 
-.section-wotr{
+.wotr{
     background-color: peru;
-    color: purple;
-    text-align: center;
-    font-size: 19px;
-    font-family: 'Lucida Sans';
-    padding: 5px;
-    border: 3px solid #000; }
-
-.section-encased{
+    color: #808; }
+.encased{
     background-color: goldenrod;
-    color: #000;
+    color: #000; }
+.black{
+    background-color: #888;
+    color: #000; }
+.wotr, .encased, .black{
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
     text-align: center;
-    font-size: 19px;
     font-family: 'Lucida Sans';
-    padding: 5px;
-    border: 3px solid #000; }
+    font-size: 19px;
+    padding: 5px; }
 
-.section-black{
-    background-color: #808080;
-    color: #000;
+.developer{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
     text-align: center;
-    font-size: 19px;
-    font-family: 'Lucida Sans';
-    padding: 5px;
-    border: 3px solid #000; }
-    
-.infotext{
+    font-size: 27px;
+    letter-spacing: 4px;
     position: absolute;
     top: 50%;
     width: 100%;
-    text-align: center;
-    color: #fff;
-    background-color: #000;
-    font-size: 27px;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    letter-spacing: 4px;
     user-select: none; }
