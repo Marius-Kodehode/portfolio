@@ -3,6 +3,9 @@ h2{
     text-align: center;
     text-decoration: underline; }
 
+a{
+    color: #fff; }
+
 .pageDesc{
     color: #fff;
     text-align: center; }
@@ -12,6 +15,3 @@ h2{
     margin: 5px 0px;
     padding: 6px 10px;
     width: fit-content; }
-
-a{
-    color: #fff; }

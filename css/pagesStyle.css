@@ -3,6 +3,9 @@ h2{
     text-align: center;
     text-decoration: underline; }
 
+a{
+    color: #fff; }
+
 .pageDesc{
     color: #fff;
     text-align: center; }
@@ -13,9 +16,6 @@ h2{
     padding: 6px 10px;
     width: fit-content; }
 
-a{
-    color: #fff; }
-
 .sample{
     border: 2px solid #fff; }
 .sample p{
@@ -24,6 +24,6 @@ a{
     padding: 2px 5px;
     width: fit-content; }
 .sample a{
-    color: #00ff00; }
+    color: #0f0; }
 .sample a:hover{
     font-style: italic; }

@@ -22,11 +22,9 @@ a{
     height: 150px;
     margin-bottom: 70px;
     text-align: center; }
-
 .aboutBanner a{
     font-weight: bold;
     text-decoration: none; }
-
 .aboutBannerTxt{
     margin: 65px auto;
     padding: 2px 4px;
@@ -51,7 +49,6 @@ a{
     font-weight: bold;
     text-transform: uppercase;
     width: fit-content; }
-
 .BannerTxt a:hover{
     font-style: italic; }
 
@@ -92,11 +89,9 @@ a{
     color: transparent;
     margin: 10px auto;
     width: fit-content; }
-
 .norVer:hover{
     background: #fff;
     color: #000; }
-
 .norVer p{
     font-size: smaller;
     font-weight: bold; }
@@ -106,11 +101,9 @@ a{
     color: transparent;
     margin: 10px auto;
     width: fit-content; }
-
 .engVer:hover{
     background: #fff;
     color: #000; }
-
 .engVer p{
     font-size: smaller;
     font-weight: bold; }
