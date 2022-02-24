@@ -20,16 +20,16 @@ a::selection, p::selection{
     background-repeat: no-repeat;
     background-attachment: fixed; }
 .gimg1{
-    background-image: url("../images/wotr.png");
+    background-image: url("wotr.png");
     min-height: 95%; }
 .gimg2{
-    background-image: url("../images/encased.png");
+    background-image: url("encased.png");
     height: 750px; }
 .gimg3{
-    background-image: url("../images/black.png");
+    background-image: url("black.png");
     height: 750px; }
 .gimg4{
-    background-image: url("../images/graywall.jpg");
+    background-image: url("graywall.jpg");
     height: 300px; }
 
 .wotr{
