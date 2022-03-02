@@ -8,6 +8,7 @@ body{
     font-family: sans-serif;
     margin: 0; }
 
+/* Marked text that fits site appearance */
 ::selection{
     background-color: #fff;
     color: #000; }
