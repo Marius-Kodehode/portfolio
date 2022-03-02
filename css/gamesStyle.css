@@ -12,9 +12,10 @@ a{
 
 .gameMod{
     border: 2px solid #fff;
+    display: inline-block;
     margin: 5px 0px;
     padding: 6px 10px;
-    width: fit-content; }
+    width: 275px; }
 
 .gameDemo{
     border: 2px solid #fff;

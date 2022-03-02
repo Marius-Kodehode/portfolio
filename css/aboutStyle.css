@@ -8,11 +8,9 @@
     user-select: none; }
 
 h2{
-    color: #fff;
     margin: 20px;
-    text-align: center;
     text-decoration: underline; }
-h3{
+h2, h3{
     color: #fff;
     text-align: center; }
 

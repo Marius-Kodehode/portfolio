@@ -19,13 +19,15 @@ body{
 
 /* Navigation bar used across site */
 .navLinks{
-    border: 2px solid #fff;
+    border-top: 2px solid #fff;
     background-color: #000;
-    margin: 25px auto 5px auto;
+    text-align: center;
     padding: 2px 5px;
-    width: fit-content; }
+    width: 100%;
+    position: fixed;
+    bottom: 0; }
 .navLinks:hover{
-    border: 2px solid #ffd700; }
+    border-top: 2px solid #ffd700; }
 .navLinks a:hover{
     color: #ffd700; }
 
