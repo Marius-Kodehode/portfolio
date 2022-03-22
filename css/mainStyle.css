@@ -58,15 +58,19 @@ a{
 
 /* Games and mods banner */
 .gBanner{
-    border: 0.1px solid #010101;
-    background-color: #000;
-    background-image: url("../images/gbanner2.png");
-    background-size: auto;
-    background-repeat: repeat-x;
+    color: #0f0;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
     height: 179px;
-    margin-bottom: 50px;
-    text-align: center;
-    text-transform: uppercase; }
+    width: 100%; }
+.gBanner p{
+    background-color: #000;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
     
     /* animation-name: bannerslide;
     animation-duration: 4500ms;
@@ -79,15 +83,6 @@ a{
         background-position: left; }
     to{
         background-position: 100%; } } */
-
-.gBannerTxt{
-    background-color: #000;
-    color: #0f0;
-    margin: 75px auto;
-    padding: 2px 4px;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: fit-content; }
 
 /* Norwegian version link */
 .norVer{
