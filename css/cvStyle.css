@@ -16,7 +16,7 @@ fieldset{
     color: #000;
     border: 2px solid #808080;
     font-family: 'Lucida Sans';
-    margin-bottom: 15px;
+    margin: 0px auto 15px auto;
     width: 720px; }
 legend{
     background-color: #fff;
