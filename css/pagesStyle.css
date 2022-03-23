@@ -17,9 +17,9 @@ a{
     width: fit-content; }
 
 .sample{
+    background-color: rgba(0, 0, 0, 80%);
     border: 2px solid #fff; }
 .sample p{
-    background-color: #000;
     margin-top: 10px;
     margin-bottom: 0;
     padding: 4px 5px; }
