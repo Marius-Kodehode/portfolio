@@ -12,7 +12,16 @@ h2{
     text-decoration: underline; }
 h2, h3{
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    user-select: none; }
 
 a{
     color: #fff; }
+
+p{
+    font-size: 17px; }
+
+.me{
+    background-color: rgba(0, 0, 0, 80%);
+    border: 2px solid #fff;
+    padding: 5px 10px; }
