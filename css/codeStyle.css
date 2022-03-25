@@ -26,7 +26,7 @@ a{
     color: black;
     width: 250px;
     text-align: center;
-    border: 2px solid black;
+    margin: 0.5px auto;
     animation-name: siren;
     animation-duration: 1500ms;
     animation-iteration-count: infinite; }
@@ -64,3 +64,10 @@ a{
         text-shadow: 2px 2px 1px #01a301, -2px 2px 1px #01a301, 2px -2px 1px #01a301, -2px -2px 1px #01a301; }
     to{
         text-shadow: 2px 2px 1px #0f0, -2px 2px 2px #0f0, 2px -2px 1px #0f0, -2px -2px 1px #0f0; } }
+
+.comfy{
+    color: #fff;
+    font-family: Arial;
+    font-size: 18px; 
+    text-shadow: 2px 2px 2px #000;
+    user-select: none; }
