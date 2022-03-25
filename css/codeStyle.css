@@ -9,10 +9,58 @@ a{
 .pageDesc{
     color: #fff;
     text-align: center; }
-    
+
+.blocks{
+    display: flex; }
+
 .codeSample{
     background-color: rgba(0, 0, 0, 80%);
     border: 2px solid #fff;
     margin: 5px 0px;
-    padding: 6px 10px;
+    padding: 6px 10px; }
+.codeSample a:hover{
+    font-style: italic; }
+
+.EMS{
+    background-color: rgb(255, 10, 10);
+    color: black;
+    width: 250px;
+    text-align: center;
+    border: 2px solid black;
+    animation-name: siren;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite; }
+@keyframes siren{
+    0%{
+        background-color: rgb(255, 10, 10); }
+    25%{
+        background-color: white; }
+    50%{
+        background-color: royalblue;
+        color: black; }
+    75%{
+        background-color: white; }
+    100%{
+        background-color: rgb(255, 10, 10); } }
+
+.btn{
+    background-color: #808080;
+    color: #000;
+    border: 2px outset #808080;
+    padding: 2px;
+    user-select: none;
     width: fit-content; }
+.btn:active{
+    border: 2px inset #808080;
+    padding: 3px 1px 1px 3px; }
+
+.neongreen{
+    animation-name: ngreen;
+    animation-direction: alternate;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite; }
+@keyframes ngreen{
+    from{
+        text-shadow: 2px 2px 1px #01a301, -2px 2px 1px #01a301, 2px -2px 1px #01a301, -2px -2px 1px #01a301; }
+    to{
+        text-shadow: 2px 2px 1px #0f0, -2px 2px 2px #0f0, 2px -2px 1px #0f0, -2px -2px 1px #0f0; } }
