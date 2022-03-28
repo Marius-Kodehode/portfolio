@@ -18,12 +18,15 @@ a{
 /* About Me and CV banner */
 .aboutBanner{
     border: 3px outset #808080;
-    background-color: #fff;
-    color: #000;
+    background-image: url("../images/about.png");
+    color: transparent;
     height: 150px;
     width: 640px;
     margin: 0px auto 70px auto;
     text-align: center; }
+.aboutBanner:hover{
+    background: #fff;
+    color: #000; }
 .aboutBanner a{
     font-weight: bold;
     text-decoration: none; }

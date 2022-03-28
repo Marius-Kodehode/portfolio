@@ -25,7 +25,8 @@ body{
     padding: 2px 5px;
     width: 100%;
     position: fixed;
-    bottom: 0; }
+    bottom: 0;
+    user-select: none; }
 .navLinks:hover{
     border-top: 2px solid #ffd700; }
 .navLinks a:hover{
