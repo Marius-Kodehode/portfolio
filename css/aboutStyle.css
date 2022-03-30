@@ -1,6 +1,9 @@
 /* Placeholder "photo" */
 .photo{
-    border: 2px solid #fff;
+    background-image: url("../images/tempPic.png");
+    background-position: center;
+    background-size: contain;
+    border: 2px outset #808080;
     margin: 20px auto;
     padding: 10px;
     height: 350px;
@@ -21,6 +24,7 @@ a{
 p{
     font-size: 17px; }
 
+/* Styling for the biography <div> */
 .me{
     background-color: rgba(0, 0, 0, 80%);
     border: 2px solid #fff;

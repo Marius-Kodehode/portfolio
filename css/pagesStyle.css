@@ -6,10 +6,12 @@ h2{
 a{
     color: #fff; }
 
+/* Styling for page's description */
 .pageDesc{
     color: #fff;
     text-align: center; }
 
+/* Styling for the <div>s */
 .pageCode{
     border: 2px solid #fff;
     margin: 5px 0px;

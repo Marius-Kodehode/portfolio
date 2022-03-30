@@ -6,10 +6,12 @@ h2{
 a{
     color: #fff; }
 
+/* Styling for page's description */
 .pageDesc{
     color: #fff;
     text-align: center; }
 
+/* Styling for the <div>s */
 .gameMod{
     background-color: rgba(0, 0, 0, 80%);
     border: 2px solid #fff;
