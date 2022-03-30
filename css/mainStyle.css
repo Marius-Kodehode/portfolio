@@ -93,7 +93,7 @@ a{
     background: #fff;
     color: #000; }
 .norVer p{
-    font-size: smaller;
+    font-size: 13px;
     font-weight: bold; }
 
 /* English version link */
@@ -106,5 +106,5 @@ a{
     background: #fff;
     color: #000; }
 .engVer p{
-    font-size: smaller;
+    font-size: 13px;
     font-weight: bold; }
