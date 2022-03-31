@@ -21,6 +21,7 @@ body{
 .navLinks{
     border-top: 2px solid #fff;
     background-color: #000;
+    font-size: 1.1rem;
     text-align: center;
     padding: 2px 5px;
     width: 100%;

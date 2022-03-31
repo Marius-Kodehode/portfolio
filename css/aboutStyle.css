@@ -1,3 +1,6 @@
+body{
+    font-size: 1.1rem; }
+
 /* Placeholder "photo" */
 .photo{
     background-image: url("../images/tempPic.png");
@@ -21,11 +24,9 @@ h2, h3{
 a{
     color: #fff; }
 
-p{
-    font-size: 17px; }
-
 /* Styling for the biography <div> */
 .me{
     background-color: rgba(0, 0, 0, 80%);
     border: 2px solid #fff;
+    margin-bottom: 4rem;
     padding: 5px 10px; }
