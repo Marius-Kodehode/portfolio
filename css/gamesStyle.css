@@ -29,3 +29,7 @@ a{
     margin: 5px 0px;
     padding: 6px 10px;
     width: fit-content; }
+
+.gameLink{
+    font-style: italic;
+    text-decoration-line: underline; }

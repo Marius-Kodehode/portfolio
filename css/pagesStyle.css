@@ -14,13 +14,7 @@ a{
     color: #fff;
     text-align: center; }
 
-/* Styling for the <div>s */
-.pageCode{
-    border: 2px solid #fff;
-    margin: 5px 0px;
-    padding: 6px 10px;
-    width: fit-content; }
-
+/* Styling for the <div>s  */
 .sample{
     background-color: rgba(0, 0, 0, 80%);
     border: 2px solid #fff; }

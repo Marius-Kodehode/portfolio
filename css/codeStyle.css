@@ -74,8 +74,10 @@ a{
 
 /* Comfy text code */
 .comfy{
+    background-color: rgba(100, 149, 237, 80%);
     color: #fff;
     font-family: Arial;
-    font-size: 18px; 
+    font-size: 17px; 
     text-shadow: 2px 2px 2px #000;
+    margin-top: 2px;
     user-select: none; }
